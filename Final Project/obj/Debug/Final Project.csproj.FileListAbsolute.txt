@@ -1,0 +1,10 @@
+C:\Users\maste\Documents\GitHub\Final Project\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+C:\Users\maste\Documents\GitHub\Final Project\Final Project\obj\Debug\Final_Project.Form1.resources
+C:\Users\maste\Documents\GitHub\Final Project\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+C:\Users\maste\Documents\GitHub\Final Project\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+C:\Users\maste\Documents\GitHub\Final Project\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+C:\Users\maste\Documents\GitHub\Final Project\Final Project\bin\Debug\Final Project.exe.config
+C:\Users\maste\Documents\GitHub\Final Project\Final Project\bin\Debug\Final Project.exe
+C:\Users\maste\Documents\GitHub\Final Project\Final Project\bin\Debug\Final Project.pdb
+C:\Users\maste\Documents\GitHub\Final Project\Final Project\obj\Debug\Final Project.exe
+C:\Users\maste\Documents\GitHub\Final Project\Final Project\obj\Debug\Final Project.pdb

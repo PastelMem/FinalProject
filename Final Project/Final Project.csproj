@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5BB7DE70-A860-4F75-9D5D-2F99A1AA8FD7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Final_Project</RootNamespace>
+    <AssemblyName>Final Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Computer device.cs" />
+    <Compile Include="Computer.cs" />
+    <Compile Include="CPU.cs" />
+    <Compile Include="CSV.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GPC.cs" />
+    <Compile Include="Laptop.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RAM.cs" />
+    <Compile Include="SSD.cs" />
+    <Compile Include="User.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notebook-lenovo-gaming-legion-5-15iah7h-82rb00q0ta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สกรีนช็อต 2024-03-20 193949.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สกรีนช็อต 2024-03-20 193915.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สกรีนช็อต 2024-03-20 193718.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สกรีนช็อต 2024-03-20 193517.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สกรีนช็อต 2024-03-20 193428.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g614_2024_1__1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acer-conceptd-3-cn314-72g-739z-weiss-intel-core-i7-10750h-16gb-ram-512gb-ssd-14-1920x1080-fhd-4gb-nvidia-geforce-gtx-1650-with-max-q-design-acer-1-jahr-garantie-englisch-tastatur-157311.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\msi katana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tuf gaming.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rog strix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rog 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CONCEPTD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lenovo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\msi bravo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
