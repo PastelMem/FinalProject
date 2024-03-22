@@ -73,5 +73,5 @@ classDiagram
     Computer_device <|-- MSI_Bravo_15B7ED_013TH
     Computer_device <|-- Lenovo_Legion_5i_15IAH7H_82RB00Q0TA_Grey
     Computer_device <|-- Acer_ConceptD_3_CN316_73G_551S
-    }
+    
 ```
