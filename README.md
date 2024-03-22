@@ -8,7 +8,7 @@
 ```mermaid
 classDiagram
    class Form1 {
-        -List<Computer_device> Allcom
+        
         -CSV CsvWriter
         -List<string> LaptopList
         -int index
