@@ -64,7 +64,7 @@ classDiagram
         +bool Savefile(string screensize , string processor , string display , string memory , string storage, string graphics , string weight , string price)
     }
     Form1 --|> Computer_device
-      Computer_device <|-- Laptop_MSI_KATANA17
+    Computer_device <|-- Laptop_MSI_KATANA17
     Computer_device <|-- Asus_TUF_Gaming_F15
     Computer_device <|-- Gigabyte_G7
     Computer_device <|-- Asus_ROG_Strix_G16
