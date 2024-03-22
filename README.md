@@ -1,3 +1,10 @@
+
+ความเป็นมาของโปรแกรม
+
+วัตถุประสงค์ของโปรแกรม
+
+โครงสร้างของโปรแกรม (Class diagram) ของโปรแกรม ใช้ Mermaid ในการเขียน ตัวอย่าง การเขียน Classdiagram ใน Markdown
+
 ```mermaid
 classDiagram
    class Form1 {
@@ -75,3 +82,4 @@ classDiagram
     Computer_device <|-- Acer_ConceptD_3_CN316_73G_551S
     
 ```
+ชื่อของผู้พัฒนาโปรแกรม 
