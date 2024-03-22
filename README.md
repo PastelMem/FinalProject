@@ -70,6 +70,7 @@ classDiagram
     class CSV {
         +bool Savefile(string screensize , string processor , string display , string memory , string storage, string graphics , string weight , string price)
     }
+    CSV --  Form1
     Form1 -- Computer_device
     Computer_device <|-- Laptop_MSI_KATANA17
     Computer_device <|-- Asus_TUF_Gaming_F15
