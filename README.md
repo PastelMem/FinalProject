@@ -1,8 +1,8 @@
 
 ความเป็นมาของโปรแกรม
-
+ปัญหาเลือกโน้ตบุ๊กมาใช้งานไม่ได้
 วัตถุประสงค์ของโปรแกรม
-
+แนะนำโน้ตบุ๊กมาให้เลือกดูแบบคร่าวๆ
 โครงสร้างของโปรแกรม (Class diagram) ของโปรแกรม ใช้ Mermaid ในการเขียน ตัวอย่าง การเขียน Classdiagram ใน Markdown
 
 ```mermaid
@@ -70,7 +70,7 @@ classDiagram
     class CSV {
         +bool Savefile(string screensize , string processor , string display , string memory , string storage, string graphics , string weight , string price)
     }
-    Form1 --|> Computer_device
+    Form1 -- Computer_device
     Computer_device <|-- Laptop_MSI_KATANA17
     Computer_device <|-- Asus_TUF_Gaming_F15
     Computer_device <|-- Gigabyte_G7
@@ -83,3 +83,5 @@ classDiagram
     
 ```
 ชื่อของผู้พัฒนาโปรแกรม 
+นายกีรติ สุวรรณภูสิทธิ์ 663450172-5
+tomtimflow@gmail.com
